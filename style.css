@@ -22,7 +22,7 @@
     font-weight: 500;
 }
 .fixedivm{
-    padding: 20px 150px 20px 150px;
+    padding: 20px 150px 10px 150px;
     border-bottom: 0.4px solid rgba(0, 0, 0, 0.2);
 
 }
@@ -88,6 +88,69 @@
     font-size: 25px;
     margin-right: 24px;
     color: rgb(71, 70, 70);
+}
+.goods{
+    padding: 20px 150px 10px 150px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.itemImg{
+    display: flex;
+    flex-direction: column;
+}
+.itemImg img{
+    width: 424px;
+    height: 360px;
+    border-radius: 2%;
+}
+.circle{
+    text-align: center;
+    font-size: 8px;
+    margin-top: 10px;
+}
+.circle i{
+    margin-right: 3px;
+    color: rgb(142, 179, 248);
+}
+.circle #act{
+    color: rgb(41, 108, 235);
+}
+.info{
+    padding: 10px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.info h4{
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 15px;
+}
+.info h5{
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.info .price{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+}
+.info .discount{
+    margin-left: 30px;
+    font-size: 12px;
+    background-color: crimson;
+    padding: 1px 10px;
+    color: white;
+    border-radius: 3px;
+    font-weight: 500;
+
+}
+.info .actual{
+    color: rgb(80, 79, 79);
 }
 .custom{
     display: flex;
