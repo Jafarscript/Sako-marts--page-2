@@ -4,7 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    display: block;
+    width: 100%;
+    /* overflow: hidden; */
 }
 
 .headpage{}
@@ -96,7 +97,7 @@ header p span{
     padding: 20px 150px 10px 150px;
     display: flex;
     flex-direction: column;
-    /* overflow: hidden; */
+    overflow: hidden;
     flex-wrap: wrap;
 }
 .items{
@@ -147,7 +148,7 @@ header p span{
 .info .discount{
     position: absolute;
     margin-left: 30px;
-    font-size: 10px;
+    font-size: 12px;
     background-color: crimson;
     padding: 1px 10px;
     color: white;
@@ -305,4 +306,53 @@ header p span{
 }
 .btn .btn2{
     padding: 12px 70px;
+}
+
+@media (max-width: 926px){
+    header{
+        padding: 12px 20px;
+        width: 100%;
+        overflow: hidden;
+    }
+    header p{
+        font-size: 12px;
+    }
+    .fixedivm{
+        padding: 20px;
+    }
+    .fixedivm .paste{
+        font-size: 15px;
+    }
+    .fixedivm .paste i{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .target .right h3{
+        font-size: 13px;
+    }
+    .target .right h5{
+        font-size: 12px;
+    }
+    .target i{
+        /* font-size: 15px;
+        padding: 0px 6px;
+        border-radius: 2px;
+        text-align: center; */
+        display: none;
+    }
+    .fixediv ul li{
+        font-size: 12px;
+        margin-left: 12px;
+    }
+    .fixediv ul li i{
+        font-size: 20px;
+    }
+    .goods{
+        padding: 20px;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .custom{
+        padding: 20px;
+    }
 }
