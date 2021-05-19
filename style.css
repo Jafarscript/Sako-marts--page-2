@@ -3,22 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    display: block;
+}
 
 .headpage{}
 
-.title{
+header{
     background: rgb(41, 108, 235);
     padding: 12px 150px;
     width: 100%;
 }
-.title p{
+header p{
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 14px;
     font-weight: 400;
 }
 
-.title p span{
+header p span{
     font-weight: 500;
 }
 .fixedivm{
@@ -93,7 +96,8 @@
     padding: 20px 150px 10px 150px;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
+    /* overflow: hidden; */
+    flex-wrap: wrap;
 }
 .items{
     display: flex;
@@ -132,16 +136,18 @@
 }
 .info h5{
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .info .price{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: 500;
     font-size: 19px;
+    position: relative;
 }
 .info .discount{
+    position: absolute;
     margin-left: 30px;
-    font-size: 12px;
+    font-size: 10px;
     background-color: crimson;
     padding: 1px 10px;
     color: white;
@@ -151,6 +157,7 @@
 }
 .info .actual{
     color: rgb(80, 79, 79);
+    font-size: 12px;
 }
 .custom{
     display: flex;
@@ -247,4 +254,55 @@
 .sticker div h6 i{
     margin-right: 10px;
     font-size: 15px;
+}
+.info .maths{
+    border: 1px solid rgb(41, 108, 235);
+    text-align: center;
+    padding: 1px 32px;
+    position: relative;
+    border-radius: 3px;
+}
+#minus{
+    position: absolute;
+    color: rgb(41, 108, 235);
+    font-size: 12px;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(201, 217, 245);
+    padding: 5.5px 5px;
+}
+
+#plus{
+    position: absolute;
+    color: rgb(41, 108, 235);
+    font-size: 12px;
+    right: 0px;
+    top: 0px;
+    background-color: rgb(201, 217, 245);
+    padding: 5.5px 5px;
+}
+
+.btn{
+    margin-top: 50px;
+}
+
+.btn button{
+    padding: 10px 60px;
+    margin-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: rgb(41, 108, 235);
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    background: rgb(245, 212, 67);
+}
+
+.btn .btn1{
+    border: 2px solid rgb(41, 108, 235);
+    background-color: white;
+}
+.btn .btn2{
+    padding: 12px 70px;
 }
