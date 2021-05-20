@@ -331,7 +331,8 @@ header p span{
         font-size: 13px;
     }
     .target .right h5{
-        font-size: 12px;
+        font-size: 8px;
+        font-weight: bolder;
     }
     .target i{
         /* font-size: 15px;
@@ -341,11 +342,11 @@ header p span{
         display: none;
     }
     .fixediv ul li{
-        font-size: 12px;
-        margin-left: 12px;
+        font-size: 10px;
+        margin-left: 5px;
     }
     .fixediv ul li i{
-        font-size: 20px;
+        font-size: 15px;
     }
     .goods{
         padding: 20px;
