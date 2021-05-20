@@ -267,6 +267,7 @@ header p span{
     font-size: 12px;
     left: 0px;
     top: 0px;
+    height: 100%;
     background-color: rgb(201, 217, 245);
     padding: 5.5px 5px;
     border-radius: 3px 0px 3px 0px;
@@ -277,6 +278,7 @@ header p span{
     color: rgb(41, 108, 235);
     font-size: 12px;
     right: 0px;
+    height: 100%;
     top: 0px;
     background-color: rgb(201, 217, 245);
     padding: 5.5px 5px;
@@ -343,10 +345,12 @@ header p span{
     }
     .fixediv ul li{
         font-size: 10px;
-        margin-left: 5px;
+        margin-left: 9px;
     }
     .fixediv ul li i{
         font-size: 15px;
+        text-align: center;
+        margin-right: 2px;
     }
     .goods{
         padding: 20px;
