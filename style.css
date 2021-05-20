@@ -267,10 +267,8 @@ header p span{
     font-size: 12px;
     left: 0px;
     top: 0px;
-    height: 100%;
     background-color: rgb(201, 217, 245);
     padding: 5.5px 5px;
-    border-radius: 3px 0px 3px 0px;
 }
 
 #plus{
@@ -278,11 +276,9 @@ header p span{
     color: rgb(41, 108, 235);
     font-size: 12px;
     right: 0px;
-    height: 100%;
     top: 0px;
     background-color: rgb(201, 217, 245);
-    padding: 5.5px 5px;
-    border-radius: 3px 0px 3px 0px;
+    padding: 5.5px 6px;
 }
 
 .btn{
