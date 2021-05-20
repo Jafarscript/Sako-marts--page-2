@@ -398,4 +398,16 @@ header p span{
     .info h5{
         margin-bottom: 15px;
     }
+    .btn{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .btn button{
+        padding: 9px 13px;
+        font-size: 13px;
+    }
+
+    .btn .btn2{
+        padding: 11px 20px;
+    }
 }
